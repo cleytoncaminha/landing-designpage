@@ -7,10 +7,15 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
     outline: none;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
+
+    a{
+        text-decoration: none;
+    }
   }
 
 body {
