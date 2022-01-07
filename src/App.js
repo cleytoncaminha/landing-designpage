@@ -9,6 +9,7 @@ function App() {
       <GlobalStyle/>
       <Menu></Menu>
       <About></About>
+      <Menu></Menu> 
     </div>
   );
 }

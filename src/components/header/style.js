@@ -21,7 +21,6 @@ const margin = keyframes`
 export const Header = styled.header`
 background: url(${headerImage});
 background-size: 100% 100%;
-width: 100vw;
 height: 100vh;
 `
 
@@ -80,9 +79,9 @@ margin: auto;
 export const Button = styled.div`
 color: white;
 font-size: 8vh;
-cursor: pointer;
 animation: ${margin} 1500ms infinite;
 `
 export const Link = styled.a`
 color: white;
+cursor: pointer;
 `
