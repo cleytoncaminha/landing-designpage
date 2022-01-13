@@ -6,13 +6,12 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     border: none;
     outline: none;
-    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-
+    box-sizing: border-box;
     a{
         text-decoration: none;
     }

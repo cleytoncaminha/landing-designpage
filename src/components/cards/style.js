@@ -13,7 +13,7 @@ margin-top: 5%;
 
 export const Card = styled.div`
 color: white;
-width: 20vw;
+width: 18vw;
 height: 40vh;
 border-radius: 20px;
 box-shadow: 30px 30px 30px -20px #6B45F5;
@@ -57,12 +57,11 @@ padding: 5%;
 `
 
 export const Content = styled.div`
-transform: translateY(150%);
-opacity: 0;
-transition: 0.3s;
+opacity:0;
+transition: all 1s;
+width: 100%;
 background-color: rgba(37, 38, 148, 0.5);
 ${Card}:hover & {
-    transform: translateY(0%);
     opacity:1;
   }
 
