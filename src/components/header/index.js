@@ -1,6 +1,6 @@
 import { Item, List, Header, Title, Text, Container, Button, Rotation, Link } from "./style"
 
-const menuItems = ['Quem Somos', 'Projetos', 'Depoimentos', 'Contate-nos']
+const menuItems = ['Quem Somos', 'Projetos', 'Contate-nos']
 
 export const Menu = () => {
     return (

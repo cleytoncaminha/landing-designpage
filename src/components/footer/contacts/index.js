@@ -19,7 +19,7 @@ export const Contact = () => {
 
     return (
         <Container>
-           <Form onSubmit={handleSubmit}>
+           <Form onSubmit={handleSubmit}  id="Contate-nos">
                <div>
                    <Label htmlFor="email">Cadastre seu email para mais informações</Label>
                    <Input type="email" name="email" onChange={handleInputChange} value={inputs.email}></Input>
