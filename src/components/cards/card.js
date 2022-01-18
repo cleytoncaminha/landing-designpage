@@ -28,7 +28,7 @@ export const Cards = () => {
                     <Icon><AiFillCrown></AiFillCrown></Icon>
                     <Title>BONITO</Title>
                     <Text>
-                        <p>Eleve a criatividade a outro nível e impressione a todos que chegarem</p>
+                        <p>Tenha seu lugar bonito para e impressione a todos</p>
                     </Text>
                 </Content>
             </Card>
@@ -37,7 +37,7 @@ export const Cards = () => {
                     <Icon><AiOutlineBank></AiOutlineBank></Icon>
                     <Title>INTELIGENTE</Title>
                     <Text>
-                        <p>Eleve a criatividade a outro nível e impressione a todos que chegarem</p>
+                        <p>Organização inteligente que poupará muito tempo e dinheiro</p>
                     </Text>
                 </Content>
             </Card>
