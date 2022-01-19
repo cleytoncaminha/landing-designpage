@@ -85,3 +85,10 @@ export const Link = styled.a`
 color: white;
 cursor: pointer;
 `
+
+export const Icon = styled.div`
+color: white;
+font-size: 8vh;
+float: left;
+margin-left: 3%;
+`
