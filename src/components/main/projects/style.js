@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
 height: 100vh;
 background-color: #EEEFF1;
+@media (max-width: 768px) {
+    height: 90vh;
+
+  }
 `
 
 export const FlexContainer = styled.div`
@@ -12,6 +16,10 @@ grid-gap: 2%;
 & :hover{
     opacity: 0.9;
 }
+@media (max-width: 768px) {
+    grid-template-columns: auto auto;
+
+  }
 `
 
 export const ContainerImg = styled.img`

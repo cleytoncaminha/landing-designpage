@@ -20,7 +20,8 @@ const margin = keyframes`
 
 export const Header = styled.header`
 background: url(${headerImage});
-background-size: 100% 100%;
+background-size: cover;
+background-position: center;
 height: 100vh;
 `
 
@@ -33,6 +34,7 @@ align-content: center;
 gap: 1%;
 font-size: 1rem;
 margin-right: 5%;
+
 `
 
 export const Item = styled.li`
@@ -46,7 +48,8 @@ margin-top: 1%;
 transition: all 400ms ease; 
 &:hover{
   background-color: rgba(250,250,250,0.5);
-  cursor: pointer;
+  cursor: pointer;}
+
 
 `
 export const Title = styled.div`
@@ -55,6 +58,10 @@ text-align: center;
 font-size: 8vh;
 letter-spacing: 8px;
 font-weight: 600;
+@media (max-width: 375px) {
+  font-size: 6vh;
+
+}
 `
 
 export const Text = styled.p`
@@ -70,6 +77,11 @@ width: 50%;
 margin-top: 12%;
 margin-left: 5%;
 text-align: center;
+@media (max-width: 375px) {
+  width: 80%;
+  margin: auto;
+  margin-top: 30%;
+}
 `
 export const Rotation = styled.div`
 transform: rotate(90deg);

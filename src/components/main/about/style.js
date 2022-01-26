@@ -10,6 +10,9 @@ display: flex;
 gap: 3%;
 justify-content: center;
 align-content: center;
+@media (max-width: 768px) {
+  display: block;
+}
 `
 
 export const H1 = styled.h1`
@@ -22,6 +25,10 @@ letter-spacing: 2px;
 `
 export const DivImage = styled.div`
 width: 45vw;
+@media (max-width: 768px) {
+  width: 90vw;
+  margin: auto
+}
 `
 export const Image = styled.img`
 border-radius: 10px;
@@ -34,6 +41,10 @@ width: 40vw;
 text-align: center;
 font-size: 2.2vh;
 margin-left: 4%;
+@media (max-width: 768px) {
+  width: 90vw;
+  margin: auto
+} 
 `
 
 export const Button = styled.div`
@@ -49,7 +60,12 @@ background-color: #1C1240;
 width: 10vw;
 margin: auto;
 margin-top: 5%;
-&:hover{
+&:hover
+{
   background-color: #3E6AEC;
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  width: 25vw
+}
 `
