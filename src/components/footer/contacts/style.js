@@ -4,6 +4,9 @@ export const Container = styled.div`
 background-color: #1C1240;
 display:flex;
 justify-content: space-between;
+@media (max-width: 375px) {
+    display:block;
+  }
 `
 
 export const Form = styled.form`

@@ -1,4 +1,4 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, css } from "styled-components";
 import headerImage from "../../assets/header.jpg"
 
 const margin = keyframes`
@@ -34,6 +34,19 @@ align-content: center;
 gap: 1%;
 font-size: 1rem;
 margin-right: 5%;
+@media (max-width: 375px) {
+ display: none;
+ ${props => props.menu === 'Open' && css`
+        display: flex;
+        gap: 0;
+        background-color: rgba(250,250,250,0.5);
+        flex-direction: column;
+        width: 50%;
+        position: absolute;
+        left: 30%;
+        font-size: 1rem;
+    `}
+}
 
 `
 
@@ -49,7 +62,10 @@ transition: all 400ms ease;
 &:hover{
   background-color: rgba(250,250,250,0.5);
   cursor: pointer;}
-
+  @media (max-width: 375px) {
+    margin-top: 0;
+    padding: 5px;
+  }
 
 `
 export const Title = styled.div`
@@ -60,7 +76,7 @@ letter-spacing: 8px;
 font-weight: 600;
 @media (max-width: 375px) {
   font-size: 6vh;
-
+  
 }
 `
 
@@ -80,7 +96,7 @@ text-align: center;
 @media (max-width: 375px) {
   width: 80%;
   margin: auto;
-  margin-top: 30%;
+  padding-top: 30%;
 }
 `
 export const Rotation = styled.div`
@@ -103,4 +119,19 @@ color: white;
 font-size: 8vh;
 float: left;
 margin-left: 3%;
+`
+
+export const IconMenu = styled.div`
+position: absolute;
+left:80%;
+display: none;
+@media (max-width: 375px) {
+  display:block;
+  cursor: pointer;
+  margin-top: 5%;
+}
+`
+export const Img = styled.img`
+width: 100%;
+margin-right: 0px;
 `

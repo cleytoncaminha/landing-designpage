@@ -47,6 +47,10 @@ padding: 2%;
 export const Icon = styled.div`
 text-align: center;
 font-size: 5vw;
+@media (max-width: 375px) {
+  font-size: 20vw;
+
+}
 `
 
 export const Title = styled.h1`
@@ -56,6 +60,10 @@ width:80%;
 margin: auto;
 @media (max-width: 768px) {
     font-size: 5vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 6vw;
+
   }
 `
 
@@ -67,6 +75,10 @@ font-size: 1vw;
 padding: 5%;
 @media (max-width: 768px) {
     font-size: 3vw;
+  }
+  @media (max-width: 375px) {
+    font-size: 5vw;
+
   }
 `
 

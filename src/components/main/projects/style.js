@@ -4,8 +4,7 @@ export const Container = styled.div`
 height: 100vh;
 background-color: #EEEFF1;
 @media (max-width: 768px) {
-    height: 90vh;
-
+  height: 100%;
   }
 `
 
@@ -17,8 +16,9 @@ grid-gap: 2%;
     opacity: 0.9;
 }
 @media (max-width: 768px) {
-    grid-template-columns: auto auto;
-
+    display: block;
+    width: 80%;
+    margin: auto;
   }
 `
 
@@ -28,6 +28,9 @@ height: 100%;
 transition: all 500ms;
 cursor: pointer;
 border-radius: 2px;
+@media (max-width: 768px) {
+  height: 100%;
+  }
 `
 
 export const H1 = styled.h1`
