@@ -4,14 +4,13 @@ export const Container = styled.div`
 background-color: #1C1240;
 display:flex;
 justify-content: space-between;
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     display:block;
   }
 `
 
 export const Form = styled.form`
 margin-left: 2%;
-width: 100%;
 `
 
 export const Label = styled.label`

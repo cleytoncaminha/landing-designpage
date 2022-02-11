@@ -36,6 +36,7 @@ font-size: 1rem;
 margin-right: 5%;
 @media (max-width: 375px) {
  display: none;
+ margin-right: 0px;
  ${props => props.menu === 'Open' && css`
         display: flex;
         gap: 0;
