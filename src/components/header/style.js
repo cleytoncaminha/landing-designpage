@@ -34,7 +34,7 @@ align-content: center;
 gap: 1%;
 font-size: 1rem;
 margin-right: 5%;
-@media (max-width: 375px) {
+@media (max-width: 400px) {
  display: none;
  margin-right: 0px;
  ${props => props.menu === 'Open' && css`
@@ -75,7 +75,7 @@ text-align: center;
 font-size: 8vh;
 letter-spacing: 8px;
 font-weight: 600;
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   font-size: 6vh;
   
 }
@@ -94,7 +94,7 @@ width: 50%;
 margin-top: 12%;
 margin-left: 5%;
 text-align: center;
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   width: 80%;
   margin: auto;
   padding-top: 30%;
@@ -126,7 +126,7 @@ export const IconMenu = styled.div`
 position: absolute;
 left:80%;
 display: none;
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   display:block;
   cursor: pointer;
   margin-top: 5%;
